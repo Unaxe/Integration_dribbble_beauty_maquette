@@ -1,0 +1,175 @@
+@font-face {
+  font-family: "Archivo Bold";
+  src: url(static/Archivo/Archivo-Bold.ttf);
+}
+@font-face {
+  font-family: "Archivo Medium";
+  src: url(static/Archivo/Archivo-Medium.ttf);
+}
+@font-face {
+  font-family: "Marcelus";
+  src: url(Marcellus-Regular.ttf);
+}
+* {
+  margin: 0;
+}
+
+body {
+  margin-left: 103px;
+  margin-right: 103px;
+  margin-top: 67px;
+  margin-bottom: 67px;
+  background-color: #fffdfc;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 16px;
+}
+nav .logo {
+  font-size: 47/2 px;
+  font-weight: bold;
+  color: black;
+  font-family: Archivo Bold;
+}
+nav ul {
+  display: flex;
+}
+nav li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 18px;
+  color: black;
+  font-family: Archivo Medium;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  height: 706 px;
+  display: flex;
+  position: relative;
+}
+.container h2 {
+  font-family: Marcelus;
+  font-size: 65px;
+  text-transform: uppercase;
+  margin-left: 16px;
+  line-height: 70px;
+}
+.container .main-title {
+  width: 706px;
+  margin-top: 90px;
+}
+.container button {
+  font-family: Archivo Medium;
+  font-size: 18px;
+  height: fit-content;
+  color: black;
+  text-decoration: none;
+  border: none;
+  border-radius: 999px 999px 999px 999px;
+  padding-left: 42.5px;
+  padding-right: 42.5px;
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+.container .explore {
+  background-color: #e27488;
+  margin-left: 8px;
+}
+.container .explore:hover {
+  color: #fffdfc;
+}
+.container .watch-review {
+  display: flex;
+  align-items: center;
+  border: 2px solid black;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  gap: 7px;
+}
+.container .button-container {
+  display: flex;
+  width: fit-content;
+  justify-content: space-between;
+  gap: 12px;
+}
+.container .text-container {
+  z-index: 999;
+  margin-bottom: 122px;
+}
+.container .woman {
+  z-index: -1;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: 0 auto;
+}
+
+.product-container {
+  background: #ffccd9;
+  width: 372.5px;
+  height: 172.5px;
+}
+
+.objects-containers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 43px;
+  margin-bottom: 43px;
+}
+
+.object-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.stars-container {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  gap: 1px;
+  width: fit-content;
+  margin-bottom: 18px;
+}
+
+.stars {
+  height: 20px;
+  width: 20px;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.product-container .soap {
+  position: relative;
+  top: 34px;
+}
+.product-container .balm {
+  position: relative;
+  top: 66px;
+}
+.product-container .gloss {
+  position: relative;
+  top: 27px;
+}
+.product-container img {
+  margin-bottom: -43px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
